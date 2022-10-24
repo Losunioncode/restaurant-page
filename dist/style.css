@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    max-height: 100vh;
+
+}
+
+
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.header {
+    background-color: #000000;
+    max-width: 100%
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin-right: 40px;
+}
+
+.header__title{
+    color: #ffffff
+}
+li{
+    list-style: none;
+}
+
+.link{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 17px;
+    text-decoration: none;
+
+}
+
+.link:hover{
+    color: #ee9808;
+    transition: 0.4s ease;
+}
+
+.link.active{
+    color: #ee9808;
+
+}
+.main-container{
+    display: flex;
+    height: calc(100vh - 81px);
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    background-image: url('./images/IRISHPUB.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.main__title{
+    margin: 0 auto;
+    font-weight: 500;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    width: calc(100% - 100px);
+    text-align: center;
+
+}
+
+.main-card{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 6px;
+    height: 280px;
+    gap: 25px;
+
+}
+
+.main__paragraph{
+    color: #ee9808;
+    margin: 0 auto;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.main__btn{
+    margin: 0 auto;
+    height: 40px;
+    width: 45%;
+    background: #da9933;
+    font-weight: 400;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.main__btn:hover{
+    background: #f6be21;
+    color: #ffffff;
+
+    transition: 0.4s ease;
+}

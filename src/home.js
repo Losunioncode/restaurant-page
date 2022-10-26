@@ -10,7 +10,7 @@ const homePage = (() => {
             <div id="main-card">
                 <h1 class="main__title">Make a reservation to our Irish Bar</h1>
                 <p class="main__paragraph">The best bar in Dublin</p>
-                <button class="btn main__btn">Make a reservation now</button>
+                <button class="btn main__btn" data-type-target="#contact">Make a reservation now</button>
             </div>
 
             <div class="information-card">

@@ -1,6 +1,7 @@
 import {pageLoader} from './pageLoad'
 import {homePage} from './home'
-import {menu} from './menu'
+import {createMenuPage} from './menu'
+import {createContactPage} from './contact'
 const links = document.querySelectorAll('[data-type-target]')
 const tabContents = document.querySelectorAll('[data-tab-content]')
 

@@ -42,6 +42,7 @@ const createMenuPage = (() => {
             </div>
             <h2 class="menu_drinks">Wine & Drinks Menu</h2>
             <div class="drinks-items">
+                       <div class="typeWine">White wine</div> 
                        <div class="menu__item">
                             <div class="item-name">Casa Rafael Sauvignon Blanc - <span>Chile €6.30/€24.50</span></div>
                             <div class="item-description">Bright colour with strong floral aromas & ripe fruit for a pleasant sensation</div>            
@@ -74,7 +75,35 @@ const createMenuPage = (() => {
                             <div class="item-name">Sileni Cellar Sauvignon Blanc - <span>New Zealand   €10.95/€41.00</span></div>
                             <div class="item-description">Classic gooseberry characters with stone fruit and melon overtones</div>            
                       </div>
-                     
+                      <div class="typeWine">Red wines</div> 
+                      <div class="menu__item">
+                            <div class="item-name">Casa Rafael Cabernet Sauvgnon  - <span> Chile     €6.30/€24.50</span></div>
+                            <div class="item-description">Fruity and spicy with hints of cassis and ripe dark fruits</div>            
+                      </div>
+                      <div class="menu__item">
+                            <div class="item-name">Cote Mas Rouge <span>France    €6.30/€24.50</span></div>
+                            <div class="item-description">Grenache, Carignan, Cinsault, Merlot and Syrah. Dark crimson, with fragrant herbs and plum aromas</div>            
+                      </div>
+                      <div class="menu__item">
+                            <div class="item-name">Conde Bel Tempranillo - <span>€6.70 / €26.50</span></div>
+                            <div class="item-description">Purple blue colour with ruby tones. Elegant on the nose with the characteristic Tempranillo fruity aromas. Soft wood & spicy tones</div>            
+                      </div>
+                      <div class="menu__item">
+                            <div class="item-name">Lakefield Shiraz - <span>Australia     €7.60/€29.75</span></div>
+                            <div class="item-description">Deep plum. Intense black cherries supported by hints of vanilla, chocolate & earthy aromas</div>            
+                      </div>
+                      <div class="menu__item">
+                            <div class="item-name">Agua Santa Merlot Reserve - <span> Chile     €6.90/€28.50</span></div>
+                            <div class="item-description">Smooth powerful with fruity notes dominated by red berries </div>            
+                      </div>
+                      <div class="menu__item">
+                            <div class="item-name">Sogno Di Uliasse Montepulciano DAbruzzo - <span>Italy     €36.00</span></div>
+                            <div class="item-description">The nose shows layers of plum and red cherry aromas with blackcurrant, blueberry and savoury red fruits</div>            
+                      </div>
+                      <div class="menu__item">
+                            <div class="item-name">Jaffelin Pinot Noir - <span>France     €32.75</span></div>
+                            <div class="item-description">The bouquet is round and explosive with aromas of cherry and small red fruits</div>            
+                      </div>
                       
             </div>
        </div>

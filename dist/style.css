@@ -132,11 +132,12 @@ main{
 }
 
 #menu{
+    height: 1100px
+
 }
 
 #menu .menu-container{
     background: white;
-    height: 94vh
 
 
 }
@@ -154,6 +155,10 @@ main{
 }
 
 
+#menu .typeWine{
+    font-family: 'Maiden Orange', cursive;
+    font-size: 27px;
+}
 span{
     font-size: 17px;
 }
@@ -197,3 +202,69 @@ span{
     flex-direction: column;
     justify-content: flex-start;
 }
+
+#contact {
+    background-color: white;
+    margin-top: 20px;
+    height: 50vh;
+
+}
+
+#contact .contact-title{
+    position: relative;
+    top: 20px;
+    margin: 0;
+    text-align: center;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #8f4710;
+}
+
+#contact .form-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact form{
+    margin-top: 60px;
+}
+
+#contact .email{
+    margin-top: 10px;
+}
+
+#contact #submit{
+    margin-top: 20px;
+    border: none;
+    width: 14rem;
+    height: 28px;
+    border-radius: 2px;
+    background: #d5ab2a;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+#contact #submit:hover{
+    background: #f6be21;
+}
+#contact label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+#contact input{
+    width: 160px;
+    border: none;
+    border-bottom: 2px solid;
+    outline: none;
+    font-size: 18px;
+
+}
+

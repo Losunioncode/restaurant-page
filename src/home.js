@@ -1,10 +1,13 @@
 const homePage = (() => {
     const content = document.querySelector('#content')
-    const main = document.createElement('div')
+    const main = document.createElement('main')
     const mainContainer = document.createElement('div')
 
+    main.setAttribute('data-tab-content', '')
+    main.setAttribute('id', 'home')
+
     mainContainer.innerHTML = `
-        <div class="main-card">
+            <div id="main-card">
                 <h1 class="main__title">Make a reservation to our Irish Bar</h1>
                 <p class="main__paragraph">The best bar in Dublin</p>
                 <button class="btn main__btn">Make a reservation now</button>
@@ -16,7 +19,7 @@ const homePage = (() => {
             </div>
     `
 
-    main.className = 'main'
+    main.classList.add('active')
     mainContainer.className = 'container main-container'
     content.appendChild(main)
     main.appendChild(mainContainer)

@@ -5,8 +5,8 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    max-height: 100vh;
-
+    max-height: calc(100vh - 81px);
+    background: #ccc4ba;
 }
 
 
@@ -45,6 +45,7 @@ li{
     font-weight: 400;
     font-size: 17px;
     text-decoration: none;
+    cursor: pointer;
 
 }
 
@@ -53,10 +54,20 @@ li{
     transition: 0.4s ease;
 }
 
-.link.active{
-    color: #ee9808;
+/*.link.active{*/
+/*    color: #ee9808;*/
 
+/*}*/
+
+
+[data-tab-content]{
+    display: none;
 }
+
+.active[data-tab-content]{
+    display: block;
+}
+
 .main-container{
     display: flex;
     height: calc(100vh - 81px);
@@ -64,7 +75,7 @@ li{
     align-items: center;
 }
 
-.main{
+main{
     background-image: url('./images/IRISHPUB.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -82,7 +93,7 @@ li{
 
 }
 
-.main-card{
+#main-card{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -118,4 +129,71 @@ li{
     color: #ffffff;
 
     transition: 0.4s ease;
+}
+
+#menu{
+}
+
+#menu .menu-container{
+    background: white;
+    height: 94vh
+
+
+}
+
+#menu .menu-title{
+    position: relative;
+    top: 20px;
+    margin: 0;
+    text-align: center;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #8f4710;
+}
+
+
+span{
+    font-size: 17px;
+}
+#menu .menu-content{
+    margin-top: 20px;
+}
+
+#menu .menu-items{
+    display: flex;
+    margin: 80px 40px;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: flex-start;
+
+
+}
+
+#menu .item-name{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+#menu .item-description{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+
+#menu .menu_drinks{
+    text-align: center;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #8f4710;
+}
+
+#menu .drinks-items{
+    display: flex;
+    margin: 0px 40px;
+    gap: 27px;
+    flex-direction: column;
+    justify-content: flex-start;
 }
